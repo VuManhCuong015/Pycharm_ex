@@ -1,0 +1,6 @@
+name = input("Enter your name: ")
+age = input("Enter your age:")
+profession = input("Enter your professor: ")
+print ("My name ís:", name)
+print ("My age ís:", age)
+print ("My profession is:", profession)
