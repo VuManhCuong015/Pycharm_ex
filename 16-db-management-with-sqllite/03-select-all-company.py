@@ -11,7 +11,6 @@ rows = cursor.fetchall()#fetch lay di mang ve ham nay ra lenh cho con tro be toa
 
 for row in rows:
     # print("company name", row[1])#moi danh sach du lieu deu duoc dem stt bat dau tu 0 nen khi ta chon 0 thi no se lay
-
     # ra id chon 1 se
     #lay ra name
     print(row)

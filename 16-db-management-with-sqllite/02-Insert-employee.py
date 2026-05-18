@@ -10,7 +10,7 @@ cursor = conn.cursor()
 cursor.execute('''
 INSERT INTO company (name,age,department)
     VALUES (?,?,?)
-''', ("Pham Duc Viet",30,"Boss"))
+''', ("Tran Minh Quy",24,"Information technology"))
 
 
 conn.commit()
