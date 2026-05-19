@@ -47,8 +47,8 @@ def add_employee():
     conn, cursor = get_connection()
     cursor.execute("INSERT INTO company(name,age,department) VALUES (?,?,?)", (name,age,dept))
 
-    conn.commit()
-    conn.close()
+    conn.commit()#luu thay doi vao file db
+    conn.close()#dong ket noi
     print("employee added successfully")
 
 def view_employees():
